@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+  body{
+    background: #d5f068;
+}
+
+.head{
+    background: #f641cc;
+    width: 100%;
+    padding: 30px 0;
+    box-shadow: 0 2px 2px #f50505;
+}
+
+.head-text{
+    text-align: center;
+    color:#151617;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #000000;
+    padding: 2vh;
+}
+
+.link{
+    display: flex;
+}
+
+.link li{
+    margin: 0 10px;
+}
+
+.link li:hover{
+    border-bottom: 2px solid #e50901;
+}
+
+.container{
+    padding-top: 3vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    background-color: #a52a5f;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    color: #3c2322;
+}
+
+.col{
+    background: #b6e7f7;
+    width: 98%;
+    padding: 15px 0 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #ebd6e5;
+
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #e3cfdb;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #67f464 ;
+}
+
+.card-header{
+    border-bottom:  3px solid #e975d5;
+    padding: 25px;
+}
+
+.btn{
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #61f40c;
+    font-size: 13pt;
+}
+
+
+.btn-tambah{
+    background: #1bed18;
+    color: #eb2923;
+}
+
+.btn-hapus{
+    background: #f80521;
+    color: #171b1e;
+}
+
+.btn-edit{
+    background: #1bed18;
+    color: #202220;
+}
+
+.btn-tambah:hover{
+    border: 1px solid #1d1b23;
+    background:#52aedd;
+    color: #d2621c;
+}
+
+table{
+     margin: 10px auto 10px;
+     width: 98%;
+     border-collapse: collapse;
+     border:1px solid #b6e7f7;
+     text-align: center;
+}
+
+th{
+  background: #c70edb;
+  color: #dfe0f3;
+  height: 30px;
+  padding: 10px;
+}
+
+tr{
+    border: 1px solid #3c2322;
+}
+
+tr:hover{
+    background: #6bff15;
+}
+
+td{
+    padding: 8px;
+    height: 25px;
+}
+
+fieldset{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-group{
+    display: block;
+    margin-top: 10px;
+}
+
+label{
+    display: inline-block;
+    margin: 3px 0 5px 0;
+    width: 20%;
+}
+
+.form-control{
+    display: block;
+    width: 50%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background: #b6e7f7;
+    background-clip: border-box;
+    border: 1px solid #3810e7;
+   border-radius: 1rem;
+}
+
+.btn-save{
+    margin-top: 20px;
+    border: 1px solid #c70edb;
+}
+
